@@ -1,0 +1,6 @@
+export enum HttpStatus {
+  BAD_CLIENT = 400,
+  UNAUTHORIZED = 401,
+  FORBIDDEN = 403,
+  INTERNAL_ERROR = 500
+}
