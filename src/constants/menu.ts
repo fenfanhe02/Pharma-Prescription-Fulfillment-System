@@ -5,7 +5,7 @@ interface MenuItem {
     path?: string;
 }
 
-const adminMenu:Array<MenuItem> = [
+const menu:Array<MenuItem> = [
     {
         title: '首页',
         path: '/main/home'
@@ -32,31 +32,7 @@ const adminMenu:Array<MenuItem> = [
     }
 ];
 
-const userMenu:Array<MenuItem> = [
-    {
-        title: '首页',
-        path: '/main/home'
-    },
-    {
-        title: '重大危险源管理',
-        path: '/main/item-one'
-    },
-    {
-        title: '企业化学品信息',
-        path: '/main/item-two'
-    },
-    {
-        title: '生产装置信息',
-        path: '/main/item-three'
-    },
-    {
-        title: '报警管理',
-        path: '/main/item-four'
-    }
-];
-
 export { 
-    adminMenu,
-    userMenu
+    menu
 };
 export type { MenuItem };

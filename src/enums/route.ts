@@ -1,9 +1,11 @@
 export enum RoutePath {
-  INDEX = '/index'
+  INDEX = '/',
+  DRUGS = '/drugs',
 }
 
 export const RoutePathToNameMap = new Map(
   [
-    [RoutePath.INDEX, 'Index'],
+    [RoutePath.INDEX, 'index'],
+    [RoutePath.DRUGS, 'drugs'],
   ]
 )

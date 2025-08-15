@@ -7,7 +7,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: RoutePath.INDEX,
     name: RoutePathToNameMap.get(RoutePath.INDEX),
-    component: () => import('@/pages/404/index.vue')
+    component: () => import('@/pages/Main/index.vue')
   },
 ];
 
