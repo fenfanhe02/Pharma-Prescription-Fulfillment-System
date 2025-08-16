@@ -32,9 +32,10 @@ const handleClose = (key: string, keyPath: string[]) => {
 <style lang="scss" scoped>
 .container {
     height: 100vh;
+    width: 150px;
 
     .el-menu {
-        width: 150px;
+        width: 100%;
         height: 100%;
         
         .el-menu-item {

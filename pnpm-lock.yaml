@@ -24,8 +24,8 @@ importers:
         specifier: 5.5.0
         version: 5.5.0
       element-plus:
-        specifier: 2.6.3
-        version: 2.6.3(vue@3.5.18(typescript@5.9.2))
+        specifier: 2.10.7
+        version: 2.10.7(vue@3.5.18(typescript@5.9.2))
       lodash-es:
         specifier: 4.17.21
         version: 4.17.21
@@ -892,8 +892,8 @@ packages:
   electron-to-chromium@1.5.202:
     resolution: {integrity: sha512-NxbYjRmiHcHXV1Ws3fWUW+SLb62isauajk45LUJ/HgIOkUA7jLZu/X2Iif+X9FBNK8QkF9Zb4Q2mcwXCcY30mg==}
 
-  element-plus@2.6.3:
-    resolution: {integrity: sha512-U4L/mr+1r+EmAUYUHrs0V/8hHMdBGP07rPymSC72LZCN4jK1UwygQYICegTQ5us4mxeqBvW6wfoEfo003fwCqw==}
+  element-plus@2.10.7:
+    resolution: {integrity: sha512-bL4yhepL8/0NEQA5+N2Q6ZVKLipIDkiQjK2mqtSmGh6CxJk1yaBMdG5HXfYkbk1htNcT3ULk9g23lzT323JGcA==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -2283,7 +2283,7 @@ snapshots:
 
   electron-to-chromium@1.5.202: {}
 
-  element-plus@2.6.3(vue@3.5.18(typescript@5.9.2)):
+  element-plus@2.10.7(vue@3.5.18(typescript@5.9.2)):
     dependencies:
       '@ctrl/tinycolor': 3.6.1
       '@element-plus/icons-vue': 2.3.1(vue@3.5.18(typescript@5.9.2))

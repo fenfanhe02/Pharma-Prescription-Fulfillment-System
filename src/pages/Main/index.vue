@@ -20,10 +20,5 @@ const userStore = useUserStore()
 .container {
     display: flex;
     height: calc(100vh - 60px);
-
-    .el-menu {
-        width: 200px;
-        height: 100%;
-    }
 }
 </style>
