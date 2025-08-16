@@ -32,7 +32,7 @@ import Dialog from './components/Dialog.vue';
 import { ref } from 'vue';
 
 const dialogRef = ref<InstanceType<typeof Dialog>>();
-const tableData = drugs;
+const tableData = ref(drugs);
 const query = () => {
   // Logic to refresh the table data, e.g., fetching from an API
   console.log('Data refreshed');
