@@ -7,28 +7,20 @@ interface MenuItem {
 
 const menu:Array<MenuItem> = [
     {
-        title: '首页',
-        path: '/main/home'
+        title: '📦 Manage Drugs',
+        path: '/drugs'
     },
     {
-        title: '重大危险源管理',
-        path: '/main/item-one'
+        title: '🏥 Manage Pharmacies',
+        path: '/pharmacies'
     },
     {
-        title: '企业化学品信息',
-        path: '/main/item-two'
+        title: '💊 Manage Prescriptions and Fulfillment',
+        path: '/prescriptions'
     },
     {
-        title: '生产装置信息',
-        path: '/main/item-three'
-    },
-    {
-        title: '报警管理',
-        path: '/main/item-four'
-    },
-    {
-        title: '管理用户',
-        path: '/main/user'
+        title: '📑 View Audit Logs',
+        path: '/logs'
     }
 ];
 

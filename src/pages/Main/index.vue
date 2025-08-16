@@ -1,5 +1,5 @@
 <template>
-    <Header :role="roleConvert(userStore.role)" />
+    <Header />
     <div class="container">
         <side-bar :menu="menu"></side-bar>
         <router-view />
