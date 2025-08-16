@@ -8,6 +8,7 @@ import { ElementPlusResolver, AntDesignVueResolver } from 'unplugin-vue-componen
 import IconsResolver from 'unplugin-icons/resolver'
 import Icons from 'unplugin-icons/vite'
 import Inspect from 'vite-plugin-inspect'
+import ElementPlus from 'unplugin-element-plus/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -17,6 +18,9 @@ export default defineConfig({
   },
   plugins: [vue(),
     vueJsx(),
+    ElementPlus({
+      useSource: true,
+    }),
     AutoImport({
       resolvers: [ElementPlusResolver(),AntDesignVueResolver(),IconsResolver({ prefix: 'Icon' })],
     }),

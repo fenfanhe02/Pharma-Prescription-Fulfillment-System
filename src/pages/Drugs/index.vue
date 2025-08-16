@@ -22,8 +22,8 @@
                 </template>
             </el-table-column>
         </el-table>
+        <Dialog ref="dialogRef" @refresh="query"/>
     </div>
-    <Dialog ref="dialogRef" @refresh="query"/>
 </template>
   
 <script setup lang="ts">

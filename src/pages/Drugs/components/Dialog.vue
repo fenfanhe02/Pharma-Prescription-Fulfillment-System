@@ -100,7 +100,12 @@ const handleSave = () => {
   formRef.value?.validate().then(valid => {
       if (valid) {
           new Promise((resolve, reject) => {
+            resolve(true);
           }).then(() => {
+            ElMessage({
+                message: 'The drug has been added successfully',
+                type: 'success',
+            });
               formRef?.value?.resetFields();
               formValue.value = {} as Drugs;
               dialogVisible.value = false
